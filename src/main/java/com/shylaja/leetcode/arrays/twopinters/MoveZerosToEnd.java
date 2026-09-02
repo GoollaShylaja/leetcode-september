@@ -1,7 +1,15 @@
 package com.shylaja.leetcode.arrays.twopinters;
 
 import java.util.Arrays;
+// Two pointers - left and right
+// left: pointer to the first index 0 and take care of non-zero element position to swap with zero
+// right: pointer to the first index of 0
+// if nums[right]!=0, swap nums[left] and nums[right], increment left
+// increment right
+// repeat until right>=nums.length
 
+// time complexity: O(n)
+// space complexity: O(1)
 public class MoveZerosToEnd {
 
     public static void main(String[] args) {

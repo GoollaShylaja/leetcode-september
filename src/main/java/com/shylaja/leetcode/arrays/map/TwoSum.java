@@ -4,6 +4,14 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
+// Map to store the complement of the target and its index
+// if the complement is found in the map, return the indices
+// if the complement is not found in the map, add the current element and its index to the map
+// repeat until the end of the array
+
+// time complexity: O(n)
+// space complexity: O(n)
+
 public class TwoSum {
 
     public int[] twoSum(int[] nums, int target) {
@@ -16,7 +24,7 @@ public class TwoSum {
             }
             seen.put(nums[i], i);
         }
-        throw new IllegalArgumentException("No two sum solution");
+        return new int[0];
     }
 
     public static void main(String[] args) {
