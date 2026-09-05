@@ -16,9 +16,10 @@ package com.shylaja.leetcode.arrays.twopinters;
 // space complexity: O(1)
 public class TrappingRainWater {
     public static void main(String[] args) {
-        
+
 		int[] height={4,2,0,3,2,5};
 		System.out.println(trap(height));
+        
 	}
 	public static int trap(int[] height) {
 
