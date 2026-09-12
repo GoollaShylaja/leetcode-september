@@ -1,6 +1,6 @@
 package com.shylaja.leetcode.arrays.slidingwindow;
 
-//LeetCode 209. Minimum Size Subarray Sum ->  Sliding Window Approach
+//LeetCode 209. Minimum Size Subarray Sum - Sliding Window Approach
 /*
 Expand → Check → Shrink → Update minimum
 
