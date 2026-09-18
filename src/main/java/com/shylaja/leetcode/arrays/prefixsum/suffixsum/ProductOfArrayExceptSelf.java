@@ -1,4 +1,4 @@
-package com.shylaja.leetcode.arrays.prefixsum;
+package com.shylaja.leetcode.arrays.prefixsum.suffixsum;
 
 import java.util.Arrays;
 

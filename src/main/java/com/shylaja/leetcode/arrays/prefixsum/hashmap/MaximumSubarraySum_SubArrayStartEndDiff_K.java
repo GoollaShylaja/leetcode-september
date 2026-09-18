@@ -1,4 +1,4 @@
-package com.shylaja.leetcode.arrays.prefixsum;
+package com.shylaja.leetcode.arrays.prefixsum.hashmap;
 
 import java.util.HashMap;
 import java.util.Map;

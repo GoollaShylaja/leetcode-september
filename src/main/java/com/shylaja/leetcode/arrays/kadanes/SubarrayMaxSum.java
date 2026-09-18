@@ -11,7 +11,7 @@ package com.shylaja.leetcode.arrays.kadanes;
 
 //time: O(n)
 // space: O(1)
-public class MaximumSubarraySum {
+public class SubarrayMaxSum {
 
     public static void main(String[] args) {
 	
